@@ -1,0 +1,105 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    z-index:1;
+    background: transparent;
+    position: sticky;
+    top: 0;
+    font-size:50px;
+    color: brown;
+    padding-left: 0;
+    padding-bottom: 0;
+    
+}
+
+.home{
+    width: 100%;
+    height: 120vh;
+    background-image: url(https://mebincdn.themebin.com/1664271580523.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -100px;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.op{
+    width: 400px;
+    height: 500px;
+    z-index: 1;
+    position: absolute;
+    background-color: rgb(23, 3, 3);
+    opacity: 0.8;
+}
+.form{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    color: aliceblue;
+    position: absolute;
+    z-index: 2;   
+}
+.form>h1{
+    margin-right: 200px;
+    font-size:xx-large;
+    font: bolder;
+}
+.form>input{
+    width:300px;
+    height: 30px;
+    color:white;
+    background-color: rgb(170, 152, 152);
+    font-size: medium;
+}
+
+.ipp{
+    width:100px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content:space-evenly; */
+}
+.ipp>span>button{
+    width:300px;
+    height: 30px;
+    background-color: red;
+    color: aliceblue;
+}
+.ip-con{
+    width:200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.para>.para2{
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
